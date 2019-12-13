@@ -1,0 +1,15 @@
+body {
+	background: #fcfcfc;
+	color: #787878;
+	font-family:"Karla", 'Helvetica Neue', 'Segoe UI', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.caption {
+	font-size: 2em;
+}
