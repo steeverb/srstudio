@@ -42,6 +42,7 @@
     margin: 0 auto;
 
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(12, [col] 1fr );
     grid-template-rows: repeat(1, [row] auto) ;
     grid-gap: 20px;
@@ -54,7 +55,7 @@
   .menu_right {
     grid-column: col 11 / span 2;
     justify-self: end;
-    justify-items: right;  
+    justify-items: right;
     }
 
   .wrapper {
@@ -102,6 +103,14 @@
     margin-bottom: 40px;
   }
 
+  .client {
+    box-shadow: none;
+    height: 200px;
+    padding: 40px 0px  40px 0px;
+    align-items: center;
+  }
+
+
 /* tablet and desktop */
 
 @media only screen and (min-width: 850px) {
@@ -136,9 +145,6 @@
   .menu_right {
     grid-column: col 11 / span 2;
     }
-
-
-
 
   .box-hero-A {
     /* position on intro list */
