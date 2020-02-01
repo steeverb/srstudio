@@ -174,11 +174,6 @@ ul > li:hover {
 }
 
 /* the mastheads and clients area */
-.client {
-  border: 1px dotted #000;
-  background: none;
-  border-radius: 5px;
-}
 
 
 .client h1, .client p {

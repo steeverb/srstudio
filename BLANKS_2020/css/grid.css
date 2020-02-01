@@ -14,7 +14,7 @@
 
   .menu {
 
-    padding: 10px 00px 15px 0px;
+    padding: 10px 00px 10px 0px;
     /* margin: 10px 0px 10px 0px; */
 
     width: 90%;
@@ -34,9 +34,21 @@
 
     .menu_right {
       grid-column: col 2 / span 1;
+      padding-top: 8px;
       justify-self: end;
       justify-items: right;
       }
+
+.client {
+      align-items: center;
+      box-shadow: none;
+      border-top: 1px dotted #bbbbbb;
+      background: none;
+      padding: 15px 0px 15px 0px;
+      margin: 10px;
+        }
+
+
 
 /* mobile first! */
 @media (min-width: 550px) {
@@ -133,7 +145,6 @@
     box-shadow: none;
     height: 200px;
     padding: 40px 0px  40px 0px;
-    align-items: center;
   }
 
 
