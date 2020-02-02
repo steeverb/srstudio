@@ -13,7 +13,6 @@
   }
 
   .menu {
-
     padding: 10px 00px 10px 0px;
     /* margin: 10px 0px 10px 0px; */
 
@@ -27,6 +26,14 @@
     grid-template-rows: repeat(1, [row] auto) ;
     grid-gap: 20px;
     }
+
+
+    .menu_left {
+      font-family: 'Inconsolata', monospace;
+      font-size: 18px;
+      font-weight: 400;
+      }
+
 
     .hero {
       padding: 100px 0px 10px 0px;
@@ -88,7 +95,8 @@
 
   .menu_left {
       grid-column: col / span 6;
-      }
+      font-size: 22px;
+    }
 
   .menu_right {
     grid-column: col 9 / span 3;

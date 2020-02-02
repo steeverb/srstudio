@@ -193,12 +193,6 @@ ul > li:hover {
   z-index: 100;
 }
 
-.menu_left {
-  font-family: 'Inconsolata', monospace;
-  font-size: 22px;
-  font-weight: 400;
-  }
-
 .menu a {
   color: #fff;
   float: left;
