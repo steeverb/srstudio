@@ -179,7 +179,7 @@ ul > li:hover {
 .client h1, .client p {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  color: #666;
+  color: blue;
   text-align: center;
 }
 
