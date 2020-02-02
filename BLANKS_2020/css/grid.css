@@ -28,7 +28,7 @@
     }
 
 
-    .menu_left {
+    .menu_left, .box-hero-B {
       font-family: 'Inconsolata', monospace;
       font-size: 18px;
       font-weight: 400;
@@ -97,6 +97,10 @@
       grid-column: col / span 6;
       font-size: 22px;
     }
+
+  .box-hero-B {
+    font-size: 22px;
+  }
 
   .menu_right {
     grid-column: col 9 / span 3;
